@@ -37,7 +37,6 @@ def arithmetic_arranger(problems, B = None):
         return "Error: Too many problems."
     if B == True:
         answer=line1+"\n"+line2+"\n"+line3+"\n"+line4
-        return answer
     else:
         answer=line1+"\n"+line2+"\n"+line3
-        return answer
+    return answer
